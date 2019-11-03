@@ -11,7 +11,7 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: 'target/src'
+  base-directory: 'university-app/src'
        files:
           - index.js
           - package.json
