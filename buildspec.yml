@@ -11,7 +11,3 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: 'src'
-       files:
-          - index.js
-          - package.json
