@@ -1,4 +1,4 @@
-version: 1.0
+version: 0.2
 
 phases:
   install:
@@ -6,8 +6,8 @@ phases:
       nodejs: 10
   build:
     commands:
-      - echo Building the Node code...
-      - node -version
+      - node -v
 artifacts:
   files:
     - '**/*'
+  name: SourceArtifact
