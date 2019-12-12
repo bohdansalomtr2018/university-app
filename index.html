@@ -23,6 +23,7 @@
             padding: 20px;
             text-align: center;
             box-sizing: border-box;
+            transform: translateY(-50%);
         }
 
         .context h1{
@@ -35,6 +36,21 @@
             margin-top: 5px;
             opacity: 0.8;
         }
+
+        .active {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 20px;
+            border: 2px solid red;
+            background: green;
+            line-height: 50px;
+        }
+
+        .active b{
+            color: #16fff4;
+            font-size: 40px;
+        }
+
 
 
         .area{
@@ -182,7 +198,7 @@
     <div class="context">
         <h1>Дослідження процесу розгортання node.js додатку в хмарній інфраструктурі Amazon Web Services</h1>
         <h4><i>(Investigation of node.js Application Cloud Deployment Process in Amazon Web Services)</i></h4>
-        <h2>Версія застосунку: <b>v0</b></h2>
+        <h2 class="">Версія застосунку: <b>v0</b></h2>
     </div>
 </body>
 </html>
